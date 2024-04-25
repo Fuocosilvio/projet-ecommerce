@@ -1,5 +1,10 @@
 body {
   background-color: white;
+  font-family: Inter;
+}
+a {
+  color: #242323;
+  text-decoration: none;
 }
 .container {
   max-width: 1000px;
@@ -11,6 +16,7 @@ body {
 .cards-container {
   display: flex;
   gap: 24px;
+  margin-bottom: 150px;
 }
 
 .cards2-container {
@@ -18,5 +24,63 @@ body {
   gap: 24px;
 }
 .button {
-  background-color: red;
+  color: white;
+  border-radius: 50px;
+  padding: 12px 24px 12px 24px;
+  gap: 24px;
+  background-color: #491e4b;
+}
+nav {
+  padding: 24px 0px 24px 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-link {
+  display: flex;
+  gap: 24px;
+  font-size: 22px;
+}
+.card-card {
+  display: flex;
+  gap: 16px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.text-button {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 48px;
+  align-items: center;
+}
+
+.text {
+  font-size: 56px;
+}
+.card-titre {
+  color: #000c22;
+  opacity: 50%;
+}
+.card-description {
+  color: #000c22;
+  font-size: 24px;
+}
+.card-prix {
+  color: #000c22;
+  font-size: 24px;
+}
+.photo {
+  display: flex;
+  border-radius: 60px;
+  background-color: lightgray;
+  justify-content: flex-end;
+}
+.acceuil-text {
+  font-weight: 100px;
+  font-size: 96px;
+}
+.acceuil {
+  margin-top: 100px;
 }

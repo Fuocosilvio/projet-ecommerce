@@ -1,3 +1,7 @@
 export function Titre({ children }) {
-  return <h1>{children}</h1>;
+  return (
+    <div className="text">
+      <h1>{children}</h1>
+    </div>
+  );
 }

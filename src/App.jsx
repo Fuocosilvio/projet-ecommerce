@@ -6,7 +6,6 @@ import { CategoriePage } from "./pages/CategoriePage";
 import { DetailProduit } from "./pages/DetailProduitPage";
 import { Navigation } from "./components/Navigation";
 import "./App.css";
-
 function App() {
   return (
     <BrowserRouter>
