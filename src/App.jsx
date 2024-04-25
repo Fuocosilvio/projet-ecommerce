@@ -1,9 +1,11 @@
+import "./reset.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { HomePage } from "./pages/HomePage";
 import { ProduitPage } from "./pages/ProduitPage";
 import { CategoriePage } from "./pages/CategoriePage";
 import { DetailProduit } from "./pages/DetailProduitPage";
 import { Navigation } from "./components/Navigation";
+import "./App.css";
 
 function App() {
   return (

@@ -1,0 +1,22 @@
+body {
+  background-color: white;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.cards-container {
+  display: flex;
+  gap: 24px;
+}
+
+.cards2-container {
+  display: flex;
+  gap: 24px;
+}
+.button {
+  background-color: red;
+}
