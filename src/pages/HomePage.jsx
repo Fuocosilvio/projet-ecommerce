@@ -14,7 +14,7 @@ export function HomePage() {
           </div>
           <Button>Decouvrir les produits</Button>
         </div>
-        <div>
+        <div className="image-acceuil">
           <img src="/photo.png" alt="" />
         </div>
       </div>

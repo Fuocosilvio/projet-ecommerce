@@ -76,6 +76,8 @@ nav {
   border-radius: 60px;
   background-color: lightgray;
   justify-content: flex-end;
+  margin-bottom: 70px;
+  gap: 10px;
 }
 .acceuil-text {
   font-weight: 100px;
@@ -83,4 +85,13 @@ nav {
 }
 .acceuil {
   margin-top: 100px;
+}
+.card-categorie {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.card-image img {
+  height: 500px;
+  object-fit: cover;
 }
