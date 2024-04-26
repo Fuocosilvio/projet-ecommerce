@@ -95,3 +95,21 @@ nav {
   height: 500px;
   object-fit: cover;
 }
+.card-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card-detail img {
+  height: 397px;
+  object-fit: cover;
+  width: 596px;
+}
+img .n-3 {
+  height: 732px;
+  width: 596px;
+}
+
+.detail-card {
+  margin-top: 150px;
+}
